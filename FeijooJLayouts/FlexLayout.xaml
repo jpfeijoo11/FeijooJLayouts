@@ -8,9 +8,29 @@
             Text=""
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <ScrollView>
+            <FlexLayout
+         Direction="Row"
+         Wrap="Wrap"
+         JustifyContent="Center"
+         AlignItems="Center"
+         Margin="20"
+         AlignContent="Center"
+         >
+
+                <Image Source="imagen1.png" WidthRequest="150" HeightRequest="150" Margin="10"/>
+                <Image Source="imagen2.png" WidthRequest="150" HeightRequest="150" Margin="10"/>
+                <Image Source="imagen3.png" WidthRequest="150" HeightRequest="150" Margin="10"/>
+                <Image Source="imagen4.png" WidthRequest="150" HeightRequest="150" Margin="10"/>
+
+            </FlexLayout>
+        </ScrollView>
         <Button
-        x:Name="BotonRegresar"
-        Text="Regresar"
-        Clicked="BotonRegresar_Clicked" />
+            x:Name="BotonRegresar"
+            Text="Regresar"
+            Clicked="BotonRegresar_Clicked"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
     </StackLayout>
+   
 </ContentPage>

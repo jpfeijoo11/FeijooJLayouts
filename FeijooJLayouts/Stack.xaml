@@ -7,19 +7,31 @@
         <Label 
             Text="Juan"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            TextColor="DarkBlue"
+            FontSize="26"
+            BackgroundColor="Beige"/>
         <Label 
             Text="Pablo"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            TextColor="Magenta"
+            FontSize="20"
+            BackgroundColor="BlanchedAlmond"/>
         <Label 
             Text="Feijoo"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            TextColor="Green"
+            FontSize="25"
+            BackgroundColor="LightCoral"/>
         <Label 
             Text="Arpi"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            TextColor="Turquoise"
+            FontSize="30"
+            BackgroundColor="Black"/>
         <Button
             x:Name="BotonIrFlex"
             Text="Ir a Flex Layout"
