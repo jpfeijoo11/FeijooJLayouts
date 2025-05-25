@@ -8,8 +8,8 @@
     Title="FeijooJLayouts">
 
     <ShellContent
-        Title="Stack Layout"
-        ContentTemplate="{DataTemplate local:Stack}"
+        Title="Grid Layout"
+        ContentTemplate="{DataTemplate local:GridLayout}"
         Route="MainPage" />
 
 </Shell>

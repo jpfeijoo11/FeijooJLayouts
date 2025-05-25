@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FeijooJLayouts.AbsoluteLayout"
+             Title="AbsoluteLayout">
+
+    <AbsoluteLayout>
+
+
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <Frame Margin="20"
+                   CornerRadius="20"
+                   Padding="20"
+                   BackgroundColor="LightGray">
+                <Label Text="Soy Juan Feijoo, estudiante universitario con un fuerte interés en la computación, la programación y las tecnologías educativas. He trabajado con plataformas como Arduino, especialmente con la placa Arduino Nano 33 IoT, y he desarrollado soluciones como un sistema de reconocimiento facial usando Python y control de LEDs. También he realizado análisis comparativos de distintas placas de desarrollo y computadoras de placa única, y he participado en investigaciones sobre e-business, comercio electrónico y el uso de realidad aumentada y virtual. Uno de mis proyectos más importantes es 'Guardianas del Fuego y del Saber', una iniciativa educativa gamificada dirigida a chicas de colegio, donde combino leyendas ancestrales ecuatorianas con contenidos de matemáticas, física, biología, programación y resolución de problemas. Actualmente, cuento con una visa Schengen válida por cinco años y estoy organizando un viaje familiar a Europa en el verano de 2025."
+                       FontSize="16"
+                       TextColor="Black" />
+            </Frame>
+        </ScrollView>
+
+
+        <Image Source="imagen5.png"
+               AbsoluteLayout.LayoutBounds="0.5,0,100,100"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               VerticalOptions="Start"
+               HorizontalOptions="Center"/>
+
+       
+        <Button Text="Ir a GridLayout"
+                Clicked="OnNavigateToGrid"
+                AbsoluteLayout.LayoutBounds="1,1,150,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+    </AbsoluteLayout>
+
+</ContentPage>

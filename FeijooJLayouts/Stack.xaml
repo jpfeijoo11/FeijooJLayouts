@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FeijooJLayouts.Stack"
              Title="Stack">
-    <StackLayout Orientation="Vertical" Spacing="80">
+    <StackLayout Orientation="Vertical" Spacing="60">
         <Label 
             Text="Juan"
             VerticalOptions="Center" 
